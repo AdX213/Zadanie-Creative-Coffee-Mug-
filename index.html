@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Coffee Mug By Adrian</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Nagłówek -->
+  <header>
+  <div class="container">
+    <h1 class="logo">Creative Mug By Adrian</h1>
+
+    <!-- Przysick hamburgera media -->
+    <button class="menu-toggle" aria-label="Otwórz menu">&#9776;</button>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Start</a></li>
+        <li><a href="#features">Produkt</a></li>
+        <li><a href="#gallery">Galeria</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <!-- Sekcja Hero -->
+  <section id="hero">
+    <div class="container">
+      <h2>Zacznij dzień kreatywnie</h2>
+      <p>"Nie ma problemu, którego kubek kawy by nie rozwiązał."</p>
+      <a href="#contact" class="btn">Kup teraz</a>
+    </div>
+  </section>
+
+  <!-- Sekcja Cech Produktu -->
+  <section id="features">
+    <div class="container">
+      <div class="features-content">
+        <div class="features-image">
+          <img src="img/kubek1.jpg" alt="Kubek Coffee Mug opis produktu" />
+        </div>
+        <div class="features-text">
+          <h2>O produkcie</h2>
+          <p>
+            <strong>Creative Coffee Mug</strong> to wyjątkowy kubek zaprojektowany z myślą o osobach ceniących styl i jakość.
+            Nowoczesna izolacja termiczna utrzymuje ciepło kawy przez dłużej. Wykonany z ekologicznych materiałów i dostępny w limitowanej edycji.
+          </p>
+          <ul class="product-features">
+            <li><i class="fas fa-temperature-high"></i> Długo utrzymuje temperaturę</li>
+            <li><i class="fas fa-leaf"></i> Przyjazny dla środowiska</li>
+            <li><i class="fas fa-mug-hot"></i> Stylowy i ergonomiczny design</li>
+            <li><i class="fas fa-star"></i> Limitowana edycja premium</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sekcja Galerii -->
+  <section id="gallery">
+    <div class="container">
+      <h2>Galeria produktu</h2>
+      <div class="slider-wrapper">
+        <div class="slider-track">
+          <img src="img/kubek2.jpg" alt="Kubek Coffee Mug w kolorze miętowym  " />
+          <img src="img/kubek3.jpg" alt="Kubek Coffee Mug w kolorze białym" />
+          <img src="img/kubek4.jpg" alt="Kubek Coffee Mug w kolorze brązowym" />
+        </div>
+        <button class="prev">Poprzedni</button>
+        <button class="next">Następny</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sekcja Kontaktowa -->
+  <section id="contact">
+    <div class="container contact-wrapper">
+      <div class="contact-info">
+        <h2>Kontakt</h2>
+        <p>Masz pytania lub chciałbyś dokonać zakupu?</p>
+        <p>Skontaktuj się z nami poprzez formularz kontaktowy lub infolinię.</p>
+        <p>Infolinia: <a href="tel:+48123445789">+48 123 445 789</a></p>
+      </div>
+
+      <form id="contact-form">
+        <input type="text" id="name" name="name" placeholder="Imię" required />
+        <input type="email" id="email" name="email" placeholder="Email" required />
+        <textarea id="message" name="message" placeholder="Wiadomość" required></textarea>
+        <button type="submit">Wyślij</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Stopka -->
+  <footer>
+    <div class="container">
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" alt="Facebook ikona"/>
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram ikona"/>
+        </a>
+        <a href="https://x.com" target="_blank" aria-label="X">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/x.svg" alt="X ikona"/>
+        </a>
+      </div>
+      <p><strong> &copy; 2025 Creative Coffee Mug By Adrian. Wszelkie prawa zastrzeżone.</strong>
+        <br> Projekt i wykonanie: Adrian Kowalczuk
+        <br> Wszystkie grafik wykorzystane na stronie pochodzą z serwisu Pixabay.com i zostały użyte zgodnie z <a href="https://pixabay.com/pl/service/license/" target="_blank" rel="noopener noreferrer">Pixabay License</a>.
+        <br> Treść strony objęta jest ochroną prawa autorskiego – kopiowanie i rozpowszechnianie zabronione bez zgody autora. 
+      </p>
+    </div>
+  </footer>
+
+  <!----------- Skrypty ----------->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
